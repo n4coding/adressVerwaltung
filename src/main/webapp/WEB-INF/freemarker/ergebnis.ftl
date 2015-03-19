@@ -11,7 +11,7 @@
     <!-- Bootstrap -->
     <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../resources/css/bootstrap-multiselect.css" type="text/css"/>
-    <link href="../resources/css/myStyle.css" rel="stylesheet">
+    <link href="${rc.getContextPath()}../resources/css/myStyle.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
    
@@ -22,7 +22,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>   
   </head>
 
- <body class="maingradient">
+ <body style="background:none">
 
 <div class="container">
 <br><br><br>

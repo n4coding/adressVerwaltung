@@ -39,7 +39,7 @@ public class SpeichernController {
 
 		speichernService.adresseSpeichern(name, vorname, strasse,plz, ort, telefon);
 
-		response.sendRedirect("/");
+		response.sendRedirect(request.getContextPath());
 	
 	}
 

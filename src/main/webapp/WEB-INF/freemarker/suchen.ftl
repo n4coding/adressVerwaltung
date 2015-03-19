@@ -14,7 +14,7 @@
     <!-- Bootstrap -->
     <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../resources/css/bootstrap-multiselect.css" type="text/css"/>
-    <link href="../resources/css/myStyle.css" rel="stylesheet">
+    <link href="${rc.getContextPath()}../resources/css/myStyle.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
    
@@ -31,7 +31,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
-                <form action="/ergebnis" class="form-horizontal" method="get">
+                <form action="${rc.getContextPath()}/ergebnis" class="form-horizontal" method="get">
                 
                     <fieldset>
                         <legend class="text-center header">Suchen</legend>
